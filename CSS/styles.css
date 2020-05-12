@@ -44,6 +44,7 @@ body {
     padding: 15px 30px;
     border: 1px solid #666;
     background: var(--primary-color-light);
+    color: var(--primary-color-dark);
 }
 
 .block {
@@ -56,7 +57,7 @@ main h2 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    padding: 1.5em;
+    padding: 1.3em;
 }
 
 #box {
@@ -96,6 +97,7 @@ img {
     margin: 20px 20vw;
     text-align: center;
     width: 60vw;
+    padding: 0 0 30px 0;
 }
 
 #additionally section {
@@ -123,4 +125,24 @@ aside {
     background-color: var(--secondory-color-dark);
 }
 
+footer {
+    background-color: black;
+}
 
+div {
+    display: inline-block;
+    color: var(--primary-color-dark);
+    text-align: center;
+    width: 49vw;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
